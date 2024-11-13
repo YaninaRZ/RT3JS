@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>inscription</title>
+</head>
+<body>
+
+    <header>
+        <button id="nav-btn"><a href="inscription.html">Sinscrire</a></button>
+        <button id="nav-btn"><a href="connexion.html">Connexion</a></button>
+    </header>
+
+    
+    <form>
+    <h3>Inscription</h3>
+
+    <label for="nom">Entrez votre Nom:</label> <br>
+    <input type="text" id="nom" name="nom" required minlength="6" maxlength="32"><br>
+
+    <label for="prenom">Entrez votre Prénom:</label> <br>
+    <input type="text" id="prenom" name="prenom" required pattern="[A-Za-z]+" placeholder="Votre prénom"><br>
+
+    <label for="email">Entrez votre Email:</label> <br>
+    <input type="email" id="email" name="email" required placeholder="Email"> <br>
+
+    <label for="password">Entrez votre mot de passe:</label> <br>
+    <input type="password" id="password" name="password" required placeholder="Mot de passe"><br>
+
+    <label for="adresse">Entrez votre Adresse:</label> <br>
+    <input type="text" id="Adresse" name="Adresse" required placeholder="Adresse"><br>
+
+    <label for="Code_postal">Entrez votre code postal:</label> <br>
+    <input type="text" id="Code_postal" name="Code_postal" required placeholder="Code postal"><br>
+
+
+    <button type="submit" id="gg">M'inscrire</button>
+    <button type="submit" id="gg"><a href="connexion.html">Se connecter</a></button>
+    </form>
+
+   
+</body>
+</html>

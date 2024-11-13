@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://laplateforme.io/">Lptf</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Units</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Text Section -->
+    <div class="d-flex justify-content-center align-items-center" style="height: 10vh;">
+        <p id="platformText" class="h1">La Plateforme_</p>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="container-fluid text-center">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- First Card and modal -->
+            <div class="col">
+                <div class="card">
+                    <img src="card-img.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Une image</h5>
+                        <p class="card-text">Elle est juste présente pour respecter les consignes</p>
+                        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal">Ouvrir le Modal</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Card -->
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 id="cardTitle" class="card-title text-start">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary text-start">Card subtitle</h6>
+                        <p class="card-text text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center p-2">
+                        <!-- Btn Rebooter -->
+                        <button id="rebootBtn" type="button" class="btn btn-primary" style="--bs-btn-padding-y: .5rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                            Rebooter le monde
+                        </button>
+                        
+                        <!-- Pagination -->
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination pagination-sm mb-0">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" data-page="1">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" data-page="2">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" data-page="3">3</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Card -->
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        Featured
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Progress Bar Section -->
+    <div class="row my-5">
+        <div class="col-12">
+            <h4 class="text-center">Installation de l'IA 9000</h4>
+            <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form Section -->
+    <div class="container mt-4">
+        <p>Recevez votre copie gratuite d'internet 2!</p>
+        <form>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="login" class="form-label">Login</label>
+                    <input type="text" class="form-control" id="login" placeholder="Login">
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Votre Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@example.com">
+                    <small class="form-text text-muted">Juste du texte</small>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <label for="password" class="form-label">Mot de passe</label>
+                    <input type="password" class="form-control" id="password" placeholder="Mot de Passe">
+                </div>
+                <div class="col-md-6">
+                    <label for="url" class="form-label">URL brochure</label>
+                    <input type="url" class="form-control" id="url" placeholder="https://23455/haha/">
+                    <button type="submit" class="btn btn-primary mt-3">Soumettre</button>
+                </div>
+            </div>  
+        </form>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" tabindex="-1" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const platformText = document.getElementById("platformText");
+        const rebootBtn = document.getElementById("rebootBtn");
+        const cardTitle = document.getElementById("cardTitle");
+        const paginationLinks = document.querySelectorAll('.page-link');
+
+        //change le texte la plateforme
+        rebootBtn.addEventListener("click", function () {
+            platformText.textContent = "Rain";
+        });
+
+        // change le titre de la card 2
+        paginationLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const page = e.target.getAttribute('data-page');
+                
+                // change selon la page
+                if (page == "1") {
+                    cardTitle.textContent = "Page 1:";
+                } else if (page == "2") {
+                    cardTitle.textContent = "Page 2:";
+                } else if (page == "3") {
+                    cardTitle.textContent = "Page 3:";
+                }
+            });
+        });
+    </script>
+</body>
+

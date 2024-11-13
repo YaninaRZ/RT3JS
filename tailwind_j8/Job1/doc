@@ -1,0 +1,22 @@
+Créez un fichier index.html contenant les balises HTML de base (doctype,
+html, head, body). 
+
+Dans votre body,
+ créez un header avec une navigation et
+un footer contenant une liste de quatre liens (Accueil, Inscription, Connexion
+et Rechercher). 
+Ils doivent tous pointer vers votre page index.html.
+
+
+
+Ajoutez une section avec un formulaire de création de compte contenant :
+● Des inputs radios pour la civilité
+● Des inputs de type text pour prénom, nom et adresse
+
+_1
+
+● Des inputs de type email pour l’adresse email
+● Des inputs de type password pour le mot de passe et sa validation
+● Des checkbox pour choisir ses passions (informatique, voyages, sport,
+lecture)
+● Un bouton pour valider le formulaire

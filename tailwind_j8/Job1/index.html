@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Création de Compte</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<!-- nav -->
+<header class="flex justify-between items-center py-4 px-8 bg-indigo-500 text-white">
+    <nav>
+        <ul class="flex space-x-6 text-lg font-medium">
+            <li><a href="index.html" class="hover:underline">Accueil</a></li>
+            <li><a href="inscription.html" class="hover:underline">Inscription</a></li>
+            <li><a href="connexion.html" class="hover:underline">Connexion</a></li>
+            <li><a href="rechercher.html" class="hover:underline">Rechercher</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- main -->
+<main class="max-w-md  mt-8 bg-white p-6 rounded-lg m-auto">
+    <h1 class="text-2xl font-bold text-center  mb-6">Création de Compte</h1>
+    <form action="index.html" method="post">
+        <!---->
+        <fieldset class="mb-4">
+            <legend>Civilité :</legend>
+            <div class="flex items-center space-x-4">
+                <label class="flex items-center">
+                    <input type="radio" name="civilite" value="Monsieur" class="mr-2"> Monsieur
+                </label>
+                <label class="flex items-center">
+                    <input type="radio" name="civilite" value="Madame" class="mr-2"> Madame
+                </label>
+            </div>
+        </fieldset>
+
+        <!---->
+        <div class="mb-4">
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required class=" rounded-md">
+        </div>
+
+        <div class="mb-4">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required class="rounded-md">
+        </div>
+
+        <div class="mb-4">
+            <label for="adresse">Adresse :</label>
+            <input type="text" id="adresse" name="adresse" class="rounded-md">
+        </div>
+
+        <div class="mb-4">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required class="rounded-md">
+        </div>
+
+        <div class="mb-4">
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required class="rounded-md">
+        </div>
+
+        <div class="mb-4">
+            <label for="password_confirm">Confirmez le mot de passe :</label>
+            <input type="password" id="password_confirm" name="password_confirm" required class="rounded-md">
+        </div>
+
+        <!-- Passions -->
+        <fieldset class="mb-6">
+            <legend>Passions :</legend>
+            <div>
+                <label>
+                    <input type="checkbox" name="passions" value="informatique" > Informatique
+                </label>
+                <label>
+                    <input type="checkbox" name="passions" value="voyages"> Voyages
+                </label>
+                <label>
+                    <input type="checkbox" name="passions" value="sport" > Sport
+                </label>
+                <label>
+                    <input type="checkbox" name="passions" value="lecture"> Lecture
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- BTN -->
+        <button type="submit" class="w-full bg-indigo-500 text-white py-2 rounded-md">Créer un compte</button>
+    </form>
+</main>
+
+<!-- footer -->
+<footer class="bg-indigo-500 py-4 mt-8">
+    <ul class="flex justify-center space-x-4 text-white text-lg font-medium">
+        <li><a href="index.html" >1</a></li>
+        <li><a href="index.html" >2</a></li>
+        <li><a href="index.html">3</a></li>
+        <li><a href="index.html">4</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>

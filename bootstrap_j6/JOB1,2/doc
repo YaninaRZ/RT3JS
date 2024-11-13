@@ -1,0 +1,56 @@
+
+
+Job 02
+
+
+● Le bouton “Rebooter le Monde” doit modifier le texte du jumbotron et le
+remplacer par une citation aléatoire du film “Blade Runner” (Pas le
+2049 !).
+"All those moments will be lost in time, like tears in rain."
+— Roy Batty
+
+
+● La pagination doit modifier le contenu du jumbotron par un contenu de
+votre choix.
+
+_2
+
+● Cliquer sur un élément de la liste groupée à droite doit le rendre actif (à
+l’image du premier élément de la liste qui est actif avec un fond bleu
+sur la photo).
+● Les boutons à gauche et à droite de la progress bar doivent permettre
+de la faire progresser ou régresser.
+● Presser, dans l’ordre, les touches D, G et C doit faire apparaître une
+modale récapitulant les informations des champs du formulaire en bas
+à gauche.
+● Valider le formulaire (en bas à droite) avec un email et un mot de
+passe non vide doit changer aléatoirement la couleur du spinner de la
+page principale du jumbotron.
+
+Job 03
+
+Enfin, et afin de manipuler un peu le système de grilles de bootstrap,
+Créer une page index.html qui reproduit la maquette suivante.
+On doit passer d’une organisation à l’autre en fonction du support (desktop /
+mobile) de l’utilisateur. (Vous pouvez tester le passage de l’un à l’autre via
+l’inspecteur de votre navigateur)
+
+_3
+
+Compétences visées
+
+➔ Utiliser le framework Bootstrap
+➔ Utiliser le Javascript / Jquery
+
+Rendu
+
+Le projet est à rendre sur https://github.com/prenom-nom/runtrackJs.
+Dossiers “jour06” -> “jobXX”. Fichiers nommés index.html et script.js
+
+Base de connaissances
+
+➔ Introduction · Bootstrap v5.0
+➔ Documentation officielle javascript
+➔ Tutoriel Javascript
+➔ Bien débuter en Javascript
+➔ Introduction aux événements en JS

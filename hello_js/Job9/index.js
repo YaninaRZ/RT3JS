@@ -1,0 +1,3 @@
+function tri(){
+    const numbers     = []
+}
